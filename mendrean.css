@@ -1,0 +1,300 @@
+#container {
+    display: grid;
+    gap: 0px;
+    width: 393px;
+    height: 468px;
+    border: 1px solid black;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    background-image: url(./fondo.jpg);
+    grid-template-columns: 38px 62px 53px 45px 110px 58px 28px;
+    grid-template-rows: 55px 96px 94px 62px 63px 35px 28px 35px;
+    grid-template-areas: 
+        "c1 c1 c2 c3 c3 c4 c4"
+        "c5 c6 c7 c7 c7 c8 c9"
+        "c10 c10 c11 c11 c11 c12 c13"
+        "c14 c14 c15 c15 c16 c17 c17"
+        "c18 c18 c19 c19 c20 c21 c21"
+        "c22 c23 c24 c24 c25 c26 c26"
+        "c28 c29 c30 c30 c31 c32 c32"
+        "c33 c33 c34 c34 c35 c36 c36";
+}
+
+
+#c1{
+    grid-area: c1;
+    background: none;
+    border-bottom: 3px solid black;
+    border-right: 3px solid black;
+    
+}
+#c2{
+    grid-area: c2;
+    background: none;
+    border: 3px solid black;
+    border-top: none
+    
+}
+
+#c3{
+    grid-area: c3;
+    background:  none;
+    border: 3px solid black;
+    border-top: none;
+}
+#c4{
+    grid-area: c4;
+    background:  none;
+    border: 3px solid black;
+    border-top: none;
+}
+
+#c5{
+    grid-area: c5;
+    background:  none;
+    border: 3px solid black;
+    
+
+}
+#c6{
+    grid-area: c6;
+    background: #decb03;
+    border: 3px solid black;
+}
+
+#c7{
+    grid-area: c7;
+    background: #b10101; 
+    border-top: 3px solid black;
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+    display: inline-block;
+}
+#c8{
+    grid-area: c8;
+    background: #011288; 
+    border: 3px solid black;
+
+}
+
+#c9{
+    grid-area: c9;
+    background:  none;
+    border:3px solid black;
+}
+
+#c10{
+    grid-area: c10;
+    background:  none;
+    border: 3px solid black;
+    
+}
+#c11{
+    grid-area: c11;
+    background: #b10101; 
+    display: inline-block;
+    
+}
+
+#c12{
+    grid-area: c12;
+    background: none; 
+    border: 3px solid black;
+    
+
+}
+#c13{
+    grid-area: c13;
+   
+    border: 3px solid black;
+}
+
+#c14{
+    grid-area: c14;
+    background: #011288; 
+    
+    display: inline-block;
+}
+#c15{
+    grid-area: c15;
+    background: none;
+    border: 3px solid black;
+
+}
+
+#c16{
+    grid-area: c16;
+    background: black;
+    border:3px solid black;
+}
+
+#c17{
+    grid-area: c17;
+    background: none;
+    border-left: 3px solid black;
+    border-top: 3px solid black;
+    display: inline-block;
+
+}
+
+#c18{
+    grid-area: c18;
+    background: #011288; 
+    display: inline-block;
+
+}
+
+#c19{
+    grid-area: c19;
+    background:  black;
+    display: inline-block;
+}
+
+#c20{
+    grid-area: c20;
+    background:  none;
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+    display: inline-block;
+    
+}
+
+
+#c21{
+    grid-area: c21;
+    background: none; 
+    border-left: 3px solid black;
+    border-bottom: 3px solid black;
+    display: inline-block
+    
+    
+}
+
+#c22{
+    grid-area: c22;
+    background: none; 
+    border-right: 3px solid black;
+    display: inline-block;
+    
+
+}
+#c23{
+    grid-area: c23;
+    background: none;
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+    display: inline-block;
+}
+
+#c24{
+    grid-area: c24;
+    background: black;
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+    display: inline-block;
+}
+#c25{
+    grid-area: c25;
+    background: none;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+    border-left: 3px solid black;
+    display: inline-block;
+    
+
+}
+
+#c26{
+    grid-area: c26;
+    background: #b10101; 
+    border-left: 3px solid black;
+    border-top: 3px solid black;
+    display: inline-block;
+}
+
+#c27{
+    grid-area: c27;
+    background: none;
+    display: inline-block
+
+}
+
+
+#c28{
+    grid-area: c28;
+    background: none;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+    display: inline-block;
+}
+
+#c29{
+    grid-area: c29;
+    background: none;
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+    display: inline-block;
+}
+#c30{
+    grid-area: c30;
+    background: none;
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+    border-top: 3px solid black;
+    display: inline-block;
+    
+
+}
+
+#c31{
+    grid-area: c31;
+    background: #decb03;
+    border-top: 3px solid black;
+    border-right: 3px solid black;
+    border-left: 3px solid black;
+    display: inline-block;
+}
+
+#c32{
+    grid-area: c32;
+    background: #b10101; 
+    border-left: 3px solid black;
+    display: inline-block;
+
+}
+
+#c33{
+    grid-area: c33;
+    background: none;
+    border: 3px solid black;
+
+}
+
+
+#c34{
+    grid-area: c34;
+    background: none;
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+    
+    display: inline-block;
+    
+}
+
+#c35{
+    grid-area: c35;
+    background: #decb03;
+    
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+    display: inline-block;
+}
+
+
+#c36{
+    grid-area: c36;
+    background: #b10101; 
+    border-left: 3px solid black;
+    display: inline-block;
+
+}
